@@ -1,0 +1,27 @@
+<References xmlns="http://xmlns.oracle.com/adf/jndi">
+  <Reference name="RomsDev" className="oracle.jdeveloper.db.adapter.DatabaseProvider" credentialStoreKey="RomsDev"
+             xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>222.96.148.113</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1522</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="serviceName">
+        <Contents>romsdev.localdomain</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>ROMS</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+</References>
